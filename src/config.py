@@ -3,21 +3,20 @@ import sys
 
 DB_PARAMS = {
     "db_engine": "sqlite",
-    "db_path": "../auditd_logs.db",
+    "db_path": "auditd_logs.db",
 }
 
 """
 # The path to the auditd log file/files
 # LOGS_PATH can be a single file or a directory with log files
 # Examples:
-a. LOGS_PATH = "a_logs/"  # checking the directory 'a_logs' for logs files
-b. LOGS_PATH = "auditd_logs/"  # checking the directory 'auditd_logs' for logs files
-c. LOGS_PATH = "auditd_logs/audit_2.log"  # parsing only the log file 'audit_2.log'
+a. LOGS_PATH = "auditd_logs/"  # checking the directory 'auditd_logs' for logs files
+b. LOGS_PATH = "auditd_logs/audit_2.log"  # parsing only the log file 'audit.log'
 """
-LOGS_PATH = "../auditd__logs/"
+LOGS_PATH = "auditd_logs/"
 
 
-OUTPUT_LOG_PATH = "../outlog.log"  # logger output log file path
+OUTPUT_LOG_PATH = "outlog.log"  # logger output log file path
 SKIP_FILE_METHOD = "by_last_event"
 
 

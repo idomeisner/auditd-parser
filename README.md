@@ -2,13 +2,14 @@
 
 
 ### Files
-- `main.py` - The main file of the task. In this file everything happens.
+- `main.py` - The main file of the project. This file contains all the logic.
 - `models.py` - This file contains the table models of the database.
 - `database.py` - This file contains the database model.
 - `config.py` - The file contain constants and configurations.
 - `requirements.txt` - The file contain the required Python packages to run the project.
+<br><br>
 
-### Run the code
+### Run the project
 
 **First, create a virtual environment**
 
@@ -25,7 +26,8 @@
 4. Install the required packages listed in requirements.txt by running: `pip install -r requirements.txt`
 
 **Run the project**
-1. Run the with: `python main.py`
+1. Run the with: `python src/main.py`
+<br><br>
 
 ### Note
 The project won't run without a log file input.
