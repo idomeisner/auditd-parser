@@ -1,0 +1,9 @@
+# ignore files
+.DS_Store
+*.log
+*.db
+
+# ignore directories
+__pycache__/
+.idea/
+venv/
